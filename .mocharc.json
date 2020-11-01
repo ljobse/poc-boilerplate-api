@@ -1,0 +1,11 @@
+{
+  "diff": true,
+  "extension": ["js"],
+  "package": "./package.json",
+  "reporter": "spec",
+  "timeout": 120000,
+  "ui": "tdd",
+  "watch-files": ["**/tests/**/*.tests.js"],
+  "require": ["source-map-support/register", "tsconfig-paths/register"],
+  "watch": true
+}

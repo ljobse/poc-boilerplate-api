@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "src/utils/definitions",
+      "node_modules/@types",
+      "src/packages/panenco-utilities/extensions/definitions"
+    ],
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "./build",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./build/.cache/buildInfo.json",
+    "lib": ["ES2020", "es6", "dom", "dom.iterable"],
+    "assumeChangesOnlyAffectDirectDependencies": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "build"]
+}
