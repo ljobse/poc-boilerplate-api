@@ -1,4 +1,4 @@
-import { getUsers } from 'apps/users/queries/getUsers.query';
+import { getUsers } from '../queries/getUsers.query';
 
 describe("User test", () => {
   it("Should fetch users", async () => {

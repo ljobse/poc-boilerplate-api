@@ -1,5 +1,4 @@
 {
-  "mochaExplorer.files": "**/tests/**/*.tests.ts",
-  "mochaExplorer.require": ["ts-node/register", "tsconfig-paths/register"],
-  "mochaExplorer.debuggerConfig": "Attach Mocha Tests"
+  "mochaExplorer.files": "**/tests/**/*.tests.js",
+  "mochaExplorer.require": "source-map-support/register"
 }
