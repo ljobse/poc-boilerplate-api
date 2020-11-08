@@ -41,9 +41,9 @@ export class Server {
 
   private registerDelegatorWrapper() {
     Delegator.registerWrapper(async (handler) => {
-      const result = await getConnection().transaction(async (em) => {
+      const result = await getConnection().transaction((em) => {
         ExpressContext.set("entityManager", em);
-        return await handler();
+        return handler();
       });
       return result;
     });
