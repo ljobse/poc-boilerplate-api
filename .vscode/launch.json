@@ -5,26 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node",
-      "request": "launch",
       "name": "Launch Program",
+      "program": "${workspaceFolder}/build/index.js",
+      "request": "launch",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\src\\index.ts",
-      "preLaunchTask": "tsc: build - tsconfig.json",
-      "outFiles": ["${workspaceFolder}/build/**/*.js"]
-    },
-    {
-      "name": "Attach Mocha Tests",
-      "type": "pwa-node",
-      "request": "attach",
-      "port": 9229,
-      "continueOnAttach": true,
-      "autoAttachChildProcesses": false,
-      "resolveSourceMapLocations": [
-        "!**/node_modules/**",
-        "!**/.vscode/extensions/hbenl.vscode-mocha-test-adapter-*/**"
-      ],
-      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+      "type": "pwa-node"
     }
   ]
 }

@@ -4,6 +4,7 @@
     "module-alias/register",
     "source-map-support/register"
   ],
+
   "filewatcher.commands": [
     {
       "match": "src\\.*",

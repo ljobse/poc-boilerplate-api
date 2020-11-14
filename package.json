@@ -32,9 +32,7 @@
     "express": "^4.17.1",
     "mocha": "^8.2.1",
     "module-alias": "^2.2.2",
-    "ts-node": "^9.0.0",
-    "tsconfig-paths": "^3.9.0",
-    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "source-map-support": "^0.5.19",
     "typeorm": "^0.2.29"
   }
 }

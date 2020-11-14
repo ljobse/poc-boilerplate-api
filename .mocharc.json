@@ -6,7 +6,6 @@
   "timeout": 120000,
   "ui": "bdd",
   "watch-files": ["**/tests/**/*.tests.js"],
-  "require": ["source-map-support/register", "tsconfig-paths/register"],
   "watch": true,
   "exit": true
 }
