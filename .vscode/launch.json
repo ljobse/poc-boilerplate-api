@@ -24,7 +24,7 @@
         "!**/node_modules/**",
         "!**/.vscode/extensions/hbenl.vscode-mocha-test-adapter-*/**"
       ],
-      "skipFiles": ["<node_internals>/**"]
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
     }
   ]
 }

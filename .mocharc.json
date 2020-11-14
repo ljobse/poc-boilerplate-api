@@ -4,7 +4,7 @@
   "package": "./package.json",
   "reporter": "spec",
   "timeout": 120000,
-  "ui": "tdd",
+  "ui": "bdd",
   "watch-files": ["**/tests/**/*.tests.js"],
   "require": ["source-map-support/register", "tsconfig-paths/register"],
   "watch": true

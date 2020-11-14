@@ -1,4 +1,14 @@
 {
   "mochaExplorer.files": "**/tests/**/*.tests.js",
-  "mochaExplorer.require": "source-map-support/register"
+  "mochaExplorer.require": [
+    "source-map-support/register",
+    "./ts-config-paths-bootstrap.js"
+  ],
+  "filewatcher.commands": [
+    {
+      "match": "src\\.*",
+      "cmd": "cd ${workspaceRoot} && yarn build",
+      "event": "onFileChange"
+    }
+  ]
 }
