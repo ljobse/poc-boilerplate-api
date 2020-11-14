@@ -1,8 +1,10 @@
-import { getUsers } from '../queries/getUsers.query';
+import { getUsers } from 'apps/users/queries/getUsers.query';
+import ControllerBase from 'packages/panenco-rest-framework/controllers/controllerBase';
 
 describe("User test", () => {
   it("Should fetch users", async () => {
     const users = getUsers();
     console.log(users);
+    console.log(ControllerBase);
   });
 });

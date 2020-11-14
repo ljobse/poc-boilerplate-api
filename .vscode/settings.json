@@ -1,8 +1,8 @@
 {
   "mochaExplorer.files": "**/tests/**/*.tests.js",
   "mochaExplorer.require": [
-    "source-map-support/register",
-    "./ts-config-paths-bootstrap.js"
+    "module-alias/register",
+    "source-map-support/register"
   ],
   "filewatcher.commands": [
     {
