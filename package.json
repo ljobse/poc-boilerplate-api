@@ -8,8 +8,12 @@
   "scripts": {
     "start": "yarn build && node -r source-map-support/register ./build/index.js",
     "build": "tsc",
-    "test": "yarn build && mocha -r module-alias/register -r source-map-support/register **/tests/**/*.tests.js",
+    "test": "yarn build && mocha -r module-alias/register -r source-map-support/register **/tests/**/*.tests.js --exit",
     "dev": "yarn build && nodemon -r source-map-support/register ./build"
+  },
+  "_moduleAliases": {
+    "panenco-rest-framework": "./build/packages/panenco-rest-framework",
+    "panenco-utilities": "./build/packages/panenco-utilities"
   },
   "_moduleDirectories": [
     "build"

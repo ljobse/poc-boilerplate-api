@@ -19,6 +19,8 @@
     "assumeChangesOnlyAffectDirectDependencies": true,
     "baseUrl": ".",
     "paths": {
+      "panenco-rest-framework/*": ["./src/packages/panenco-rest-framework/*"],
+      "panenco-utilities/*": ["./src/packages/panenco-utilities/*"],
       "*": ["./src/*"]
     }
   },

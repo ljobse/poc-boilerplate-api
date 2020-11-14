@@ -7,5 +7,6 @@
   "ui": "bdd",
   "watch-files": ["**/tests/**/*.tests.js"],
   "require": ["source-map-support/register", "tsconfig-paths/register"],
-  "watch": true
+  "watch": true,
+  "exit": true
 }

@@ -1,5 +1,5 @@
 import { NextFunction, Request, RequestHandler, Response } from 'express';
-import { ClassType } from 'packages/panenco-utilities/classType';
+import { ClassType } from 'panenco-utilities/classType';
 
 import ControllerBase from './controllerBase';
 import { IControllerFunctions } from './controllerFunctions.interface';

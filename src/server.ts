@@ -1,9 +1,9 @@
 import express from 'express';
 import glob from 'glob';
-import { Delegator } from 'packages/panenco-rest-framework/controllers/delegator';
-import { IRouter } from 'packages/panenco-rest-framework/router.interface';
-import ExpressContext from 'packages/panenco-utilities/expressContext';
-import { registerExtensions } from 'packages/panenco-utilities/extensions';
+import { Delegator } from 'panenco-rest-framework/controllers/delegator';
+import { IRouter } from 'panenco-rest-framework/router.interface';
+import ExpressContext from 'panenco-utilities/expressContext';
+import { registerExtensions } from 'panenco-utilities/extensions';
 import path from 'path';
 import { getConnection } from 'typeorm';
 

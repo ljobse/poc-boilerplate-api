@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { Delegator } from 'packages/panenco-rest-framework/controllers/delegator';
-import { IRouter } from 'packages/panenco-rest-framework/router.interface';
+import { Delegator } from 'panenco-rest-framework/controllers/delegator';
+import { IRouter } from 'panenco-rest-framework/router.interface';
 
 import { UserController } from './user.controller';
 
